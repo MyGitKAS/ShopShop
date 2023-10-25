@@ -38,7 +38,9 @@ class ViewController: UIViewController {
     private func loginButtonTapped() {
         authView.onLoginButtonTapped = { [weak self] in
             guard let self = self else { return }
-            let vc = RegistrationViewController()
+            //let vc = RegistrationViewController()
+            let vc = ShopTapBarController()
+            
             self.present(vc, animated: true)
             }
     }

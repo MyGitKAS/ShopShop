@@ -16,6 +16,13 @@
 		1F6441002AE301150044E9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6440FE2AE301150044E9F4 /* LaunchScreen.storyboard */; };
 		1F64410C2AE306AC0044E9F4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1F64410B2AE306AC0044E9F4 /* SnapKit */; };
 		1F64410F2AE3108E0044E9F4 /* AuthentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64410E2AE3108E0044E9F4 /* AuthentificationView.swift */; };
+		1FA3B3CA2AE98BEB006CB5BA /* ShopTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3C92AE98BEB006CB5BA /* ShopTapBarController.swift */; };
+		1FA3B3CC2AE98C4D006CB5BA /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3CB2AE98C4D006CB5BA /* CatalogViewController.swift */; };
+		1FA3B3CE2AE98C60006CB5BA /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3CD2AE98C60006CB5BA /* CartViewController.swift */; };
+		1FA3B3D02AE98C74006CB5BA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3CF2AE98C74006CB5BA /* AccountViewController.swift */; };
+		1FA3B3D22AE98D09006CB5BA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3D12AE98D09006CB5BA /* Product.swift */; };
+		1FA3B3D42AE98D18006CB5BA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3D32AE98D17006CB5BA /* ProductCell.swift */; };
+		1FA3B3D62AE98D1F006CB5BA /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3B3D52AE98D1F006CB5BA /* UIImage+Extension.swift */; };
 		1FD97C2E2AE333AC00C0C5FF /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD97C2D2AE333AC00C0C5FF /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +37,13 @@
 		1F6440FF2AE301150044E9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6441012AE301150044E9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F64410E2AE3108E0044E9F4 /* AuthentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationView.swift; sourceTree = "<group>"; };
+		1FA3B3C92AE98BEB006CB5BA /* ShopTapBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopTapBarController.swift; sourceTree = "<group>"; };
+		1FA3B3CB2AE98C4D006CB5BA /* CatalogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		1FA3B3CD2AE98C60006CB5BA /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		1FA3B3CF2AE98C74006CB5BA /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1FA3B3D12AE98D09006CB5BA /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1FA3B3D32AE98D17006CB5BA /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		1FA3B3D52AE98D1F006CB5BA /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		1FD97C2D2AE333AC00C0C5FF /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				1F62243C2AE3222900B87E04 /* UITextField+Extension.swift */,
+				1FA3B3D52AE98D1F006CB5BA /* UIImage+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -72,6 +87,12 @@
 		1F6440F22AE301100044E9F4 /* ShopShop */ = {
 			isa = PBXGroup;
 			children = (
+				1FA3B3D32AE98D17006CB5BA /* ProductCell.swift */,
+				1FA3B3DB2AE98FBE006CB5BA /* AccountViewController */,
+				1FA3B3DA2AE98F87006CB5BA /* CartViewController */,
+				1FA3B3D92AE98F53006CB5BA /* ShopTapBarController */,
+				1FA3B3D82AE98EF3006CB5BA /* CatalogViewController */,
+				1FA3B3D72AE98EB2006CB5BA /* Components */,
 				1FD97C2C2AE3335000C0C5FF /* RegistrationViewController */,
 				1F64410D2AE30FBE0044E9F4 /* AuthenticationView */,
 				1F6441092AE304D50044E9F4 /* Application */,
@@ -116,6 +137,47 @@
 				1F64410E2AE3108E0044E9F4 /* AuthentificationView.swift */,
 			);
 			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		1FA3B3D72AE98EB2006CB5BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3B3D12AE98D09006CB5BA /* Product.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1FA3B3D82AE98EF3006CB5BA /* CatalogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3B3CB2AE98C4D006CB5BA /* CatalogViewController.swift */,
+			);
+			path = CatalogViewController;
+			sourceTree = "<group>";
+		};
+		1FA3B3D92AE98F53006CB5BA /* ShopTapBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3B3C92AE98BEB006CB5BA /* ShopTapBarController.swift */,
+			);
+			path = ShopTapBarController;
+			sourceTree = "<group>";
+		};
+		1FA3B3DA2AE98F87006CB5BA /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3B3CD2AE98C60006CB5BA /* CartViewController.swift */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		1FA3B3DB2AE98FBE006CB5BA /* AccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FA3B3CF2AE98C74006CB5BA /* AccountViewController.swift */,
+			);
+			name = AccountViewController;
+			path = "untitled folder/AccountViewController";
 			sourceTree = "<group>";
 		};
 		1FD97C2C2AE3335000C0C5FF /* RegistrationViewController */ = {
@@ -203,11 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA3B3D62AE98D1F006CB5BA /* UIImage+Extension.swift in Sources */,
+				1FA3B3CC2AE98C4D006CB5BA /* CatalogViewController.swift in Sources */,
 				1FD97C2E2AE333AC00C0C5FF /* RegistrationViewController.swift in Sources */,
+				1FA3B3CA2AE98BEB006CB5BA /* ShopTapBarController.swift in Sources */,
 				1F62243D2AE3222900B87E04 /* UITextField+Extension.swift in Sources */,
 				1F6440F82AE301100044E9F4 /* ViewController.swift in Sources */,
+				1FA3B3D22AE98D09006CB5BA /* Product.swift in Sources */,
 				1F6440F42AE301100044E9F4 /* AppDelegate.swift in Sources */,
+				1FA3B3D02AE98C74006CB5BA /* AccountViewController.swift in Sources */,
 				1F6440F62AE301100044E9F4 /* SceneDelegate.swift in Sources */,
+				1FA3B3D42AE98D18006CB5BA /* ProductCell.swift in Sources */,
+				1FA3B3CE2AE98C60006CB5BA /* CartViewController.swift in Sources */,
 				1F64410F2AE3108E0044E9F4 /* AuthentificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
